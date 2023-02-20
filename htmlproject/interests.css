@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+.navbar {
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.navbar-brand {
+    padding-left: 35px;
+}
+.navbar-nav {
+    padding: 20px;
+   
+}
+.nav-item {
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 110%;
+    
+}
+.nav-link {
+    color: white;
+    letter-spacing: 2px;
+}
+.offcanvas {
+	background-color: #585481;
+}
+.offcanvas-title {
+    color: white;
+}
+body {
+    background-color: #FEFCFD;
+}
+#food {
+    /* background-image: linear-gradient(to bottom right, #ae97cf, #80A1C1, #9799CA); */
+    padding: 100px;
+    padding-bottom: 90px;
+    
+    /* background-image: linear-gradient(to bottom right,  #294C60, #ADB6C4); */
+}
+#sports {
+    padding: 100px;
+    padding-bottom: 80px;
+    
+    /* background-image: linear-gradient(to bottom right, #FFEFD3, #FFC49B); */
+}
+
+.play-sport {
+    column-count: 2;
+    column-gap: 100px;
+    column-rule: solid;
+
+}
+.watch-sport {
+    column-count: 2;
+    column-gap: 100px;
+    column-rule: none;
+    
+}
+.good-food, .bad-food {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#head1 {
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 80px;
+    color: #717165;
+    -webkit-text-stroke: 1px black;
+}
+#food p {
+    font-size: 20px;
+    color: black;
+    margin-bottom: 60px;
+    margin-top: 60px;
+    text-align: center;
+}
+#head2 {
+    text-align: center;
+    font-size: 80px;
+    color: #C6AFB1;
+    -webkit-text-stroke: 1px black;
+}
+.gen {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 75px;
+    margin-top: 75px;
+}
+.subhead {
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+#footer {
+    background-color: #585481;
+    color: white;
+    text-align: center;
+    padding-bottom: 15px;
+    padding-top: 20px;
+    /* margin-bottom: 0px; */
+}
+.cen {
+    text-align: center;
+}

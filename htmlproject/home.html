@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mai website</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="stylesheet" href="home.css" type="text/css">
+</head>
+
+<body>
+  
+  <nav class="navbar navbar-expand-lg" style="background-color: #585481;">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="https://creazilla-store.fra1.digitaloceanspaces.com/cliparts/12134/sleeping-owl-clipart-md.png"
+          alt="logoplaceholder" width="70" height="me-auto">
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+        aria-controls="offcanvasNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">HOME</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="interests.html" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                INTERESTS
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="interests.html">Food</a></li>
+                <li><a class="dropdown-item" href="interests.html#sports">Sports</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="misc.html">MISCELLANEOUS</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <section id="section1">
+    <h1 id="hello">Hello, World!</h1>
+    <h3 id="welcome">Welcome to my website.</h3>
+    <a id="scroll-down" href="#head2"></a>
+  </section>
+  <section id="section2">
+    
+    <h1 id="head2">A Brief History of <span id="strikethrough"> Time</span> Mai </h1>
+      
+    <div class="about-me">
+    <p>Hi! My name is Mai and this is my website.</p>
+    <p>I was born and raised in Vietnam and moved to the US when I was 14. I'm currently a sophomore at Stuy. I would tell you my hobbies, but this website should be sufficient.</p>
+    <p>Some fast facts about me (that are not on this website):</p>
+    <ul class="list">
+      <li>I really, really love Chemistry. I like to tell the story of a student who dropped a piece of pure sodium into a toilet. If you know how reactive sodium is, you can probably guess what happened.
+      But if you don't, here's a picture to illustrate:</li> 
+      <img id="toilet" src="https://blueskyplumbingfl.com/wp-content/uploads/2016/02/flushmate_explosion_1.jpg" alt="exploding toilet" width="450" height="auto"> <br>
+      
+      <li>My favorite flavor of ice cream is chocolate (yes, it is basic. But classics are classics for a reason).</li>
+      <li>No pineapple on pizza please. Or anywhere else, for that matter.</li>
+      <li>I used to be a pretty decent cupstacker and I can also dice stack. I also cube (2x2 is my favorite) but I'm not very fast.</li>
+      <li>I'm a really big Game of Thrones fan, moreso the books than the series (says every nerd ever). I've read all 5 novels, which I recommend, the prequel novella series, and one of the worldbuilding books. I plan on finishing the other accompaniment book soon, which I've been trying to for the past 3 years.</li>
+    </ul>
+  </div>
+  <button id="funfact" type="button" class="btn" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="right" data-bs-content="A Brief History of Time is actually one of my favorite books.">
+    Fun Fact!
+  </button>
+  <img id="planet" src="planet.png" alt="planet" width="1000" height="auto">
+  </section>
+  <section id="footer">
+    <h6>Special thanks to W3schools, StackOverflow, Bootstrap, and those who post demo code online for making this possible.</h6>
+  </section>
+    
+  
+    <script type="text/javascript" src="home.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+  
+</body>
+
+</html>

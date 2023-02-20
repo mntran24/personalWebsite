@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mai website</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="stylesheet" href="interests.css" type="text/css">
+</head>
+
+<body>
+  
+  <nav class="navbar navbar-expand-lg" style="background-color: #585481;">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="https://creazilla-store.fra1.digitaloceanspaces.com/cliparts/12134/sleeping-owl-clipart-md.png"
+          alt="logoplaceholder" width="70" height="me-auto">
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+        aria-controls="offcanvasNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="home.html">HOME</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle active" href="interests.html" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false" aria-current="page">
+                INTERESTS
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Food</a></li>
+                <li><a class="dropdown-item" href="#sports">Sports</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="misc.html">MISCELLANEOUS</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <section id="food">
+    <h1 id="head1">Food</h1>
+    <p> I love cooking. Here are some things I've made that I'm proud of.</p>
+    <div class="good-food">
+        <img src="croissant.jpg" alt="croissant" width="425" height="auto">
+        <img src="drumsticks.jpg" alt="drumsticks" width="550" height="auto">
+    </div>
+    <p>And here are some unfortunate incidents.</p>
+    <div class="bad-food">
+        <img src="molten_plastic.jpg" alt="molten plastic" width="300" height="auto">
+        <img src="more_molten.jpg" alt="more molten plastic" width="300" height="auto">
+        <img src="blursed_sausage.jpg" alt="sausage" width="350" height="auto">
+    </div>
+  </section>
+  <section id="sports">
+    <h1 id="head2">Sports</h1>
+    <p class="gen">I love playing sports. Being very short and unathletic doesn't stop me from trying (emphasis on the trying part).</p>
+    <div class="play-sport">
+        <h2 class="subhead">Running</h2>
+        <p>I ran track and cross country last year (a bit lazy this year lol). I love long distance, mainly because I'm terrible at sprinting, but also because I can enjoy my surroundings and my mind can just wander off.</p>
+        <div class="cen">
+        <img src="run.jpg" alt="me running" width="450" height="auto" >
+        <p><em>Here's me at a meet, running the mile. And yes, I am dead last (had fun tho!)</em></p> </div>
+        <h2 class="subhead">Swimming</h2>
+        <p>I swam competitively for 5 years in elementary and middle school. I grew to like it, although I pretty much dropped it immediately when I got to high school.</p>
+        <div class="cen">
+        <img src="https://i.pinimg.com/originals/ca/6b/73/ca6b73a433f3245eb1f05a9eac576234.jpg" alt="tan lines" width="220" height="auto">
+        <p><em>Don't have any pics of myself, but here's something that swimmers know well.</em></p>
+        </div>
+    </div>
+    <p class="gen">I also watch a lot of sports, though probably not the ones you're thinking of.</p>
+    <div class="watch-sport">
+    <iframe width="480" height="360" src="https://www.youtube.com/embed/leBOvdpxwZQ" title="Fernando Alonso vs Jolyon Palmer | Italian GP 2017 F1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <p class="cen"><em>An iconic moment.</em></p>
+    <video width="450" height="auto" controls>
+        <source src="fs.mp4" type="video/mp4">
+      </video>
+      <p class="cen"><em>Moments like these are not why I fell in love with the sport, but why I stayed.</em></p>
+
+    </div>
+  </section>
+  <section id="footer">
+    <h6>Special thanks to W3schools, StackOverflow, Bootstrap, and those who post demo code online for making this possible.</h6>
+  </section>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+    
+  </body>
+  
+  </html>
